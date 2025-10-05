@@ -1,0 +1,23 @@
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    
+    background-color: yellow;
+
+}
+
+#2ndspan{
+
+color: black;
+}
+
+
+#firstspan{
+    background-color: aqua; color: rgb(66, 3, 121);
+} 
+
+#secondspan{
+    background-color: yellow; color: darkgreen;
+}
