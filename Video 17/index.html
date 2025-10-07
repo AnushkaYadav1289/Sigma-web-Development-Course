@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors in CSS</title>
+    <style>
+        
+      /*  element selector */
+      div{
+        background-color: red;
+      }
+      /* class selector */
+        .green{
+            background-color: rgb(124, 0, 128);
+        }
+        /* id selector */
+        #footer{
+            color: maroon;
+        }
+        #blue{
+            background-color: blue;
+        }
+        /* child selector */
+        article h1{
+            background-color: yellow;
+        }
+        /* descendant selector */
+        div article{
+            background-color: orange;
+        }
+        
+        /* Pseudo selector */
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            background-color: rgb(12, 226, 187);
+        }
+        a:active{
+            color: rgb(233, 64, 188);
+        }
+        a:link{
+            color: rgb(255, 166, 1);
+        }
+        /* universal selector */
+        *{margin: 0px;
+        padding: 0px;
+        }
+        /* first child selector */
+        p:first-child{
+            background-color: rgb(97, 234, 225);
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div> hey i am element selector </div>
+    <div class="green">hey i am a class selector</div>
+    <div id="blue">hey i am a id selector</div>
+    <article>
+        <h1>hey i am a child selector</h1>
+        </article>
+    <div>
+        <main> 
+            <article>
+                hey i am a descendant selector
+            </article>
+        </main>
+    </div>
+    
+    <a href="https://www.google.com">Google</a>
+    
+    <div>
+        <p>hey i am a first child of div </p>
+        <p>hey i am a second child of div</p>
+    </div> 
+</header>
+<br>
+<br>
+<footer id="footer"> 
+    &copy;All rights reserved &nbsp;&nbsp;-CodeWithAnushka
+</footer>
+</body>
+</html>
