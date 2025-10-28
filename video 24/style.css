@@ -1,0 +1,10 @@
+.box {
+    margin: 5px;
+    padding: 35px;
+    border: 2px solid black;
+    box-shadow: 5px 2px 2px 2px rgb(85, 216, 48)
+}
+
+.para1 {
+    text-shadow: 1px 3px 4px #51cd2b !important
+}
