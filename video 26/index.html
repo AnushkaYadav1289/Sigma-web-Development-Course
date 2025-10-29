@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow property in CSS</title>
+    <style>
+        .box{
+            margin: 20px;
+            width:40vw;
+            height:10vh;
+            border: 2px solid black;
+            overflow:hidden;
+            text-overflow: ellipsis;
+            white-space:nowrap;
+        }
+
+     .box1{ 
+            width:20vw;
+            height: 20vh;
+            border: 2px solid black;
+            overflow:auto;
+            margin: 10px;
+        }
+        .box2{
+            width: 5vw;
+            height: 20vh;
+            margin: 10px;
+            border: 2px solid black;
+            overflow:scroll hidden;
+            /* overflow-x: hidden; */
+            /* overflow-y: scroll; */
+        }
+        .box3{
+            margin: 10px;
+            width: 20vw;
+            height: 10vw;
+            overflow:clip; 
+            border: 2px solid black;
+            /* this will disable scrolling even when you use scroll as a property to include it and will hide the text horizontally and vertically which needs to be scrolled earlier */
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    hey i am good boy and i am currently learning css and i like to use Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde perferendis est ducimus delectus excepturi accusantium commodi autem. Repellat, aliquam eligendi magnam nihil, voluptas et suscipit libero provident mollitia unde odio temporibus at illo vel modi? Minus, cumque. Repellendus excepturi modi et voluptatum dolore facilis nihil?</div>
+    <div class="box1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quasi blanditiis nesciunt omnis eligendi eos aliquid provident, adipisci aperiam commodi expedita suscipit consequuntur laborum natus. Quasi ipsa porro aspernatur modi dolores libero nulla facere, aliquid accusantium? Nihil doloremque blanditiis mollitia nulla quae assumenda dolorem quos.
+    </div>
+    <div class="box2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, eveniet! Aperiam velit dignissimos ea laboriosam voluptas minima repudiandae tempore expedita ullam aut exercitationem fugit explicabo sint omnis natus, iure similique sed? Ipsam, ab? Ullam dolor molestias aspernatur nesciunt? Enim aspernatur fugit, deleniti recusandae ea explicabo.
+    </div>
+<div class="box3">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio culpa dolore soluta aspernatur dolorem, dignissimos voluptatem sint cum beatae modi velit error debitis commodi ducimus aut! Magni iste veniam nobis aliquam tempora commodi.
+</div>
+        
+     </body>   
+</html>
