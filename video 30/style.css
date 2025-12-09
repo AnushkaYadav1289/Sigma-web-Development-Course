@@ -1,0 +1,31 @@
+
+
+:root{
+            --color: rgb(184, 0, 245);
+            --seccolor: rgb(231, 179, 244); 
+            --defpad: 10px;
+            --defop: 0.4;
+            --defmargin:10px;
+            --defborder:3px;
+        }
+        .div{
+            background-color: var(--color);
+            border: var(--defborder) solid red;
+margin: var(--defmargin);
+padding: var(--defpad);
+        }
+        
+        .ul{
+            color:yellow;
+        }
+        .para{
+            background-color: var(--seccolor);
+            margin:var(--defmargin);
+            padding: var(--defpad);
+        }
+        .footer{ 
+            position: fixed;
+            bottom: 0px;
+            color:maroon;
+        }
+        
